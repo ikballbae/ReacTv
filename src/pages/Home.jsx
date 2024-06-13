@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import bgImage from '../assets/bg.jpeg';
+import { Search } from 'lucide-react';
 
 function Home() {
     
@@ -13,7 +14,7 @@ function Home() {
             <h1 className="mb-5 text-5xl font-bold text-white">Hello there</h1>
             <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
             <Link to="content">
-              <button className="btn btn-red text-white">Search Now</button>
+              <button className="btn bg-primary text-white"><Search className="mr-1"/>Search Now</button>
             </Link>
           </div>
         </div>

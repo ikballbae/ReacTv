@@ -11,6 +11,16 @@ body {
   font-weight: <weight>;
   font-style: normal;
 }
+.input-bordered:hover{
+  border:2px solid #FFD700;
+}
+.bg-primary{
+  background-color: #DA0037;
+}
+.bg-dark{
+  background-color: #171717;
+}
+
 .btn-red{
   background-color: #8B0000;
 }
